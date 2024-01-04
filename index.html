@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./styles/pform.css">
+</head>
+
+<body>
+    <main>
+        <section class="form-body">
+            <h1 class="heading">Simple Survey Form</h1>
+
+            <h1>Your Basic Info</h1>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="Enter Your Email">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password">
+                <label for="age">Age:</label>
+            </div>
+            <section class="radio">
+                <input class="radio-btn" type="radio" name="age" id=""> Under 18<br/>              
+                <input class="radio-btn" type="radio" name="age" id=""> Over 18              
+            </section>
+                <h1>Your Profile</h1>
+            <section class="profile">
+                <label for="bio">Bio:
+                    <textarea rows="4" cols="74"></textarea>
+                </label>
+            </section>
+            <section class="job-role">
+                <label for="jobs">Job Role</label>
+                <select class="options">
+                    <option value="">Software Engineering Internship</option>
+                    <option value="">Django Developer</option>
+                    <option value="">Python Developer</option>
+                    <option value="">MERN Stack</option>
+                </select>
+            </section>
+            <section class="interest">
+                <label for="interest">Interests:</label>
+                <input type="checkbox"> Development <br/>
+                <input type="checkbox"> Design <br/>
+                <input type="checkbox"> Business
+            </section>
+            <input class="btn" type="button" value="Submit Form">
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024 - All rights reserved by Md. Mamun</p>
+    </footer>
+</body>
+
+</html>

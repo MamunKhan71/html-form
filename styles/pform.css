@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+*{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+body{
+    width: 100%;
+    background: linear-gradient(90deg, purple, blue);
+
+}
+header > h1{
+    text-align: center;
+}
+header > hr{
+    width: 50%;
+    border: 1px dashed grey;
+}
+.heading{
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.form-body{
+    background: linear-gradient(darkblue, purple);
+    /* background-color: #f4f7f8; */
+    width: 30%;
+    height: 100%;
+    margin: 40px auto;
+    border-radius: 20px;
+    padding: 50px;
+    box-shadow: 0 0 20px blueviolet;
+}
+
+label, .form-body > div > input, .radio{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form-body > div > input, textarea , select, button{
+    height: 40px;
+    border: 1px solid rgb(209, 209, 209);
+    background-color: #e8eeef;
+    border-radius: 5px;
+    padding: 5px;
+}
+.radio-btn, .interest>input{
+    padding-left: 0;
+    margin-left: 0;
+}
+.options{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    color: black;
+}
+h1{
+    padding-top: 10px;
+    text-decoration:overline;
+}
+textarea{
+    width: 100%;
+}
+.btn{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(blueviolet, purple);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.btn:hover{
+    background: linear-gradient(purple, navy);
+    transition: 1s;
+    cursor: pointer;
+}
+option{
+    color: black;
+}
+footer > p{
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
